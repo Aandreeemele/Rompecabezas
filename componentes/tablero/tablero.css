@@ -1,5 +1,5 @@
 .div-tablero {
-    background-color: rgb(90, 204, 55);
+    background-color: beige;
 
     display: grid;
     grid-template-columns: repeat(7,7rem);
