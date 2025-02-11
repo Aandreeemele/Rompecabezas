@@ -25,5 +25,11 @@ let footer = document.createElement('div');
 footer.className = "div-footer";
 contenedor.appendChild(footer);
 
-
 DOM.appendChild(contenedor);
+
+let todasLasCartasDelDom = document.querySelectorAll('.carta');
+todasLasCartasDelDom.forEach(cadaCarta => {
+    cadaCarta.addEventListener("click", () => { 
+        cadaCarta.classList.add("mercado");
+    });
+});

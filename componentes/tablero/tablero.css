@@ -18,4 +18,12 @@
     justify-content: center;
 
     font-size: 5rem;
+    cursor: pointer;
+}
+.carta:hover{
+    border: 3px solid red;
+    transition: 0.3s;
+} 
+.mercado{
+    background-color: red;
 }
