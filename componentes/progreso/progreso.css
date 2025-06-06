@@ -1,3 +1,178 @@
-.div-progreso{
-    background-color: blue;
-}
+body {
+    background: #cfd8dc;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .telefono {
+    width: 360px;
+    height: 750px;
+    background: #000;
+    border-radius: 60px;
+    padding: 12px;
+    box-shadow: 0 25px 0px rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+    border: 1px solid beige;
+  }
+  
+  .pantalla {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  /* Barra de estado */
+  .barra-estado {
+    height: 28px;
+    background: #f1f1f1;
+    color: #333;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .iconos span {
+    margin-left: 8px;
+  }
+  
+  /* Notch */
+  .notch {
+    width: 120px;
+    height: 30px;
+    background: #222;
+    border-radius: 15px;
+    margin: 8px auto;
+    position: relative;
+    top: -3rem;
+  }
+  
+  /* Chat WhatsApp */
+  .chat-whatsapp {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 40px 40px;
+    position: relative;
+    top: -3.6rem;
+    height: 100%;
+  }
+  
+  .chat-header {
+    background-color: #075E54;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+  
+  .chat-mensajes {
+    flex: 1;
+    background: url('/mnt/data/a59a3cb7-c3df-4336-9c64-1e976bb2f8da.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  
+  .chat-input {
+    display: flex;
+    padding: 10px;
+    background: #f0f0f0;
+    border-top: 1px solid #ccc;
+    position: relative;
+    top: 17rem;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 8px 14px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 14px; 
+  
+  }
+  
+  .chat-input button {
+    padding: 8px 14px;
+    margin-left: 8px;
+    background: #075E54;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: not-allowed;
+   
+  }
+  .ImgBot{
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    top: -20rem;
+  }
+
+  .mensaje-dinamico {
+    max-width: 60%;
+    background-color: #e1ffc7;
+    color: #333;
+    padding: 10px 14px;
+    margin: 12px 15px;
+    border-radius: 15px 15px 15px 0;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    animation: aparecer 0.4s ease-out;
+    position: relative;
+    top: 13rem;
+    left: 10rem;
+    align-self: flex-start; /* Burbuja alineada a la izquierda */
+  }
+  .mensaje-dinamico1 {
+    max-width: 60%;
+    background-color: #e1ffc7;
+    color: #333;
+    padding: 10px 14px;
+    margin: 12px 15px;
+    border-radius: 15px 15px 15px 0;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    animation: aparecer 0.4s ease-out;
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+    align-self: flex-start; /* Burbuja alineada a la izquierda */
+  }
+  
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

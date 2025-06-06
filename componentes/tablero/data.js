@@ -1,5 +1,5 @@
 function cartas() {
-    let carta_par = ["🔍", "🚗", "🚓", "🚕", "🛺", "🚙", "🛹"];
+    let carta_par = ["💧", "🌳", "🌎", "♻️", "🍃", "♲", "🌿"];
     let todas_las_cartas = [...carta_par, ...carta_par];
 
     for (let i = todas_las_cartas.length - 1; i > 0; i--) {

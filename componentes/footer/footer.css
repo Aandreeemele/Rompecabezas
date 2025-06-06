@@ -1,4 +1,9 @@
 .div-footer{
-    background-color: rgb(11, 11, 85);
+    background-color: white(11, 11, 85);
+    font-size: 3rem;
+    position: relative;
+    left: 70rem;
+    top: 2rem;
+    height: 0rem;
  }
  
