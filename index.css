@@ -15,8 +15,8 @@ body, html {
 
 .div-header {
     grid-column: 1/3;
-    height: 10rem;
-    background-color: rgba(0, 0, 0, 0.925);
+    height: 1rem;
+
 }
 
 .div-progreso {
